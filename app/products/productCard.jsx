@@ -1,14 +1,18 @@
-import React from 'react';
 // import Image from 'next/image';
+import Link from 'next/link';
 
 
 
 
-const ProductCard = ({ id, name, description, imgUrl, price }) => (
+const ProductCard = ({ id, name, description, imgUrl, price }) => {
+  
+  
+  return(
 <div
     className=" bg-white w-30 flex flex-col align-center rounded-md mb-6 mr-6 px-4 py-6 transform hover:scale-105 hover:shadow-xl transition delay-50 duration-300 ease-in-out"
-    to={`/product/${id}`}
   >
+<Link href={`/products/${id}`}>
+
     <div className="flex flex-1 flex-col justify-center mb-4">
       <img  width="220" src={imgUrl} alt={name} 
      className="mx-auto" />
@@ -21,7 +25,8 @@ const ProductCard = ({ id, name, description, imgUrl, price }) => (
 
         <p className="text-xl text-center font-bold pt-2 ml-4">&#x20B9; {price}</p>
     </div>
+    </Link>
   </div>
-);
+)};
 
 export default ProductCard;

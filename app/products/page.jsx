@@ -3,7 +3,7 @@
 import ProductCard from './productCard';
 
 async function fetchProducts(){
-  const res = await fetch('https://api.escuelajs.co/api/v1/products');
+  const res = await fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=10');
   const data = await res.json();
   return data
 }

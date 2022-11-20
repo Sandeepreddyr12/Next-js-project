@@ -9,7 +9,12 @@ module.exports = {
       fontFamily: {
         base: 'Poppins, sans-serif',
     },
+    //cp == custom property
+    spacing: {
+      'cp42': '42rem',
+      'cpmax' : '90%', 
+    }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 }

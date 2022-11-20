@@ -30,7 +30,7 @@ async function Products() {
                             key={product.id}
                             id= {product.id}
                             name = {product.title}
-                            // description= {product.description}
+                            description= {product.description}
                             imgUrl= {product.category.image}
                             price= {product.price}
                         />

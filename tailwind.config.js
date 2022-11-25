@@ -4,6 +4,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
 ],
+ blocklist :[
+  'App'
+ ],
   theme: {
     extend: {
       fontFamily: {

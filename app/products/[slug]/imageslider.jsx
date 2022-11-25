@@ -1,5 +1,7 @@
 import React from 'react'
 
+//not implemnted yet, looks nice, copied for further use  
+
 export default function imageslider() {
   return (
     <div>

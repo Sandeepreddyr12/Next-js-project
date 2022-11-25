@@ -1,4 +1,7 @@
 import './globals.css'
+import StoreProvider from './store/store'
+import Navbar from './navbar/navbar'
+import Footer from './navbar/footer'
 
 export default function RootLayout({ children }) {
   return (
@@ -9,8 +12,12 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        {/* <header>navbar</header> */}
-        {children}</body>
+        <StoreProvider>
+        <header><Navbar/></header>
+        {children}
+        <Footer/>
+        </StoreProvider>
+        </body>
     </html>
   )
 }

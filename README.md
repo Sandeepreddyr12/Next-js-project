@@ -1,16 +1,16 @@
 
-Lexie.ai Project/assessment
+## Lexie.ai Project/assessment
 
 assessment link:- https://docs.google.com/document/d/1hIAxUGLXFOxCjiX7makkJUNWP3n4R6sw/edit
 
-pages implemented/developed
+# pages implemented/developed
   . Product list page
   . Product detail page
   . Checkout page
   . Thank you page after payment success
   . Stripe payment with custom form
 
-Description:
+# Description:
 
 above project is developed using Next JS ( next js 13 beta) & tailwind css.
 
@@ -19,7 +19,7 @@ time-taken (as of now - 12:30 am, 26/11):
 ~55hrs -> 10hrs ( course completion next 12 & 13) + rest for project & for million times gone through the next 13 docs (not many discussions available on next js 13) .
 
 
-Q/A
+# Q/A
 
 why i choose next js 13?
 
@@ -30,8 +30,11 @@ coming from a React, i never knew next js is these good. pretty much every featu
 
 
 
+
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
+
+
 
 
 

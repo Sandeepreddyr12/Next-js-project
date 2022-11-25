@@ -1,4 +1,40 @@
 
+Lexie.ai Project/assessment
+
+assessment link:- https://docs.google.com/document/d/1hIAxUGLXFOxCjiX7makkJUNWP3n4R6sw/edit
+
+pages implemented/developed
+  . Product list page
+  . Product detail page
+  . Checkout page
+  . Thank you page after payment success
+  . Stripe payment with custom form
+
+Description:
+
+above project is developed using Next JS ( next js 13 beta) & tailwind css.
+
+
+time-taken (as of now - 12:30 am, 26/11):
+~55hrs -> 10hrs ( course completion next 12 & 13) + rest for project & for million times gone through the next 13 docs (not many discussions available on next js 13) .
+
+
+Q/A
+
+why i choose next js 13?
+
+well! this is first writing code using Next js. purchased next js 12 course, completed & gone through many next js discussions, get to know next 13 (currently in beta) is one major update & features are promising.so i decided to develop using next 13.
+
+coming from a React, i never knew next js is these good. pretty much every feature u asked for. 
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

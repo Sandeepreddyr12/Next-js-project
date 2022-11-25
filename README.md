@@ -1,16 +1,16 @@
 
-## Lexie.ai Project/assessment
+# Lexie.ai Project/assessment
 
 assessment link:- https://docs.google.com/document/d/1hIAxUGLXFOxCjiX7makkJUNWP3n4R6sw/edit
 
-# pages implemented/developed
+### pages implemented/developed
   . Product list page
   . Product detail page
   . Checkout page
   . Thank you page after payment success
   . Stripe payment with custom form
 
-# Description:
+## Description:
 
 above project is developed using Next JS ( next js 13 beta) & tailwind css.
 

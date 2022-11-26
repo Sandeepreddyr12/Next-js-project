@@ -67,7 +67,7 @@ export default function CheckoutForm() {
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "http://localhost:3000/thankupage?payment=success",
+        return_url: `*=${process.env.ORIGIN || 'http://localhost:3000'}/thankupage?payment=success`,
       },
     });
 

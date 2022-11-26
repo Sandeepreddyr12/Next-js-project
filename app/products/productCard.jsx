@@ -30,7 +30,7 @@ const ProductCard = ({ id, name, description, imgUrl, price }) => {
 
       <div className = "flex justify-between mb-2">
         <p className="text-lg text-center font-bold pt-2 ml-4">&#x20B9;{price}.00</p>
-        <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-2 py-2.5 text-center">Know more</button>
+        <button type="button" className ="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-2 py-2.5 text-center">Know more</button>
       </div>
     </div>
     </Link>

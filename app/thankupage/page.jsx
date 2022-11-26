@@ -1,5 +1,3 @@
-
-
 import Link from 'next/link';
 
 /* --todo
@@ -11,52 +9,47 @@ protected routes,
 
 */
 
-
 export default function page(props) {
-  
-  const {payment} = props.searchParams
-  
-  
- 
+  const { payment } = props.searchParams;
+
   let description;
 
-  if(!payment) { description = (
-    <div className=" flex flex-col justify-between items-center">
-      <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mb-6">
-        Order Placed
-      </h1>
-      <p className="font-bold mb-4">Payment method : cash on delivery </p>
-      {/* <p className="font-bold mb-4">amount to be paid <span className ="text-red-600 mr-5 font-extrabold">&#x20B9; 600</span> </p> */}
-      <p className="font-extrabold text-gray-600 mb-4">
-        Items Ordered - 1 
-      </p>
-      <p className="font-bold mb-4">Thank you for your Purchase!</p>
-    </div>
-  )} else {if (payment === 'success') {
+  if (!payment) {
     description = (
       <div className=" flex flex-col justify-between items-center">
         <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mb-6">
-          Payment Success
+          Order Placed
         </h1>
-        <p className="font-extrabold text-gray-600 mb-4">
-          Items Ordered - 1 
-        </p>
+        <p className="font-bold mb-4">Payment method : cash on delivery </p>
+        {/* <p className="font-bold mb-4">amount to be paid <span className ="text-red-600 mr-5 font-extrabold">&#x20B9; 600</span> </p> */}
+        <p className="font-extrabold text-gray-600 mb-4">Items Ordered - 1</p>
         <p className="font-bold mb-4">Thank you for your Purchase!</p>
       </div>
     );
   } else {
-    description = (
-      <div className=" flex flex-col justify-between items-center">
-        <h1 className="text-4xl font-extrabold text-red-600 mb-6">
-          Payment Failed
-        </h1>
-        <p className="font-extrabold text-gray-600 mb-4">
-          Error occurred, please re-intiate the process
-        </p>
-      </div>
-    );
+    if (payment === 'success') {
+      description = (
+        <div className=" flex flex-col justify-between items-center">
+          <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 mb-6">
+            Payment Success
+          </h1>
+          <p className="font-extrabold text-gray-600 mb-4">Items Ordered - 1</p>
+          <p className="font-bold mb-4">Thank you for your Purchase!</p>
+        </div>
+      );
+    } else {
+      description = (
+        <div className=" flex flex-col justify-between items-center">
+          <h1 className="text-4xl font-extrabold text-red-600 mb-6">
+            Payment Failed
+          </h1>
+          <p className="font-extrabold text-gray-600 mb-4">
+            Error occurred, please re-intiate the process
+          </p>
+        </div>
+      );
+    }
   }
-}
 
   return (
     <div className="flex items-center justify-center h-screen">
@@ -69,11 +62,11 @@ export default function page(props) {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="1"
+              strokeWidth="1"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
@@ -107,11 +100,11 @@ export default function page(props) {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M7 16l-4-4m0 0l4-4m-4 4h18"
               />
             </svg>

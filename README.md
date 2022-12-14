@@ -16,7 +16,7 @@ above project is developed using Next JS ( next js 13 beta) & tailwind css.
 
 
 time-taken (as of now - 12:30 am, 26/11):
-~55hrs -> 10hrs ( course completion next 12 & 13) + rest for project & for million times gone through the next 13 docs (not many discussions available on next js 13) .
+~45hrs -> 10hrs ( course completion next 12 & 13) + rest for project & for million times gone through the next 13 docs (not many discussions available on next js 13) .
 
 
 # Q/A

@@ -1,7 +1,7 @@
 
-# Lexie.ai Project/assessment
+# NEXT JS 13
 
-assessment link:- https://docs.google.com/document/d/1hIAxUGLXFOxCjiX7makkJUNWP3n4R6sw/edit
+
 
 ### pages implemented/developed
   . Product list page

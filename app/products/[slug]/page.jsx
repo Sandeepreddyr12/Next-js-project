@@ -24,15 +24,22 @@ export default function ProductScreen({ params }) {
   const router = useRouter();
 
   useEffect(() => {
+
+const controller = new AbortController();
+
     async function productFetch() {
       const res = await fetch(
-        `https://api.escuelajs.co/api/v1/products/${params.slug}`
+        `https://api.escuelajs.co/api/v1/products/${params.slug}`,{signal: controller.signal}
       );
       const data = await res.json();
       setData(data);
     }
 
     productFetch();
+
+    return () => {
+      controller.abort();
+    };
   }, [params]);
 
   const buyingHandler = () => {
